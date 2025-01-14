@@ -1,0 +1,84 @@
+{
+    "industry": "agriculture",
+    "bmc": {
+        "key_partners": [
+            {
+                "type": "Seed and fertilizer suppliers",
+                "examples": ["Monsanto", "Bayer", "Syngenta", "Yara"]
+            },
+            {
+                "type": "Agricultural equipment providers",
+                "examples": ["John Deere", "CNH Industrial", "AGCO", "Case IH"]
+            },
+            {
+                "type": "Distributors and wholesalers",
+                "examples": []
+            },
+            {
+                "type": "Research institutions",
+                "examples": ["University of California, Davis", "Cornell University", "Purdue University"]
+            }
+        ],
+        "key_activities": [
+            "Crop cultivation and management",
+            "Livestock breeding and care",
+            "Harvesting and post-harvest processing",
+            "Quality control and certification",
+            "Supply chain coordination",
+            "Marketing and sales"
+        ],
+        "key_resources": [
+            "Agricultural land",
+            "Irrigation systems",
+            "Farming equipment",
+            "Skilled labor",
+            "Research and development facilities",
+            "Brand reputation"
+        ],
+        "value_propositions": [
+            "High-quality and sustainable crops",
+            "Innovative farming techniques",
+            "Organic and eco-friendly products",
+            "Reliable food supply",
+            "Enhanced crop yields and efficiency"
+        ],
+        "customer_relationships": [
+            "Direct sales to consumers",
+            "Partnerships with retailers",
+            "Cooperatives and farmer associations",
+            "Agricultural advisory services",
+            "Customer feedback and engagement"
+        ],
+        "channels": [
+            "Local markets",
+            "Online marketplaces",
+            "Supermarkets and grocery stores",
+            "Farmers' markets",
+            "Export channels",
+            "Marketing campaigns"
+        ],
+        "customer_segments": [
+            "Local consumers",
+            "Retail grocery stores",
+            "Food processing companies",
+            "Export markets",
+            "Farmers and agricultural cooperatives"
+        ],
+        "cost_structure": [
+            "Land and equipment costs",
+            "Seeds and fertilizers",
+            "Labor and wages",
+            "Irrigation and utilities",
+            "Research and development",
+            "Marketing and distribution"
+        ],
+        "revenue_streams": [
+            "Crop sales",
+            "Livestock sales",
+            "Agricultural services",
+            "Subsidies and grants",
+            "Value-added products",
+            "Licensing of agricultural technologies"
+        ]
+    }
+}
