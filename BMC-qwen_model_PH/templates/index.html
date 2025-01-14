@@ -13,12 +13,21 @@
 <body>
 <div class="container-index">
     <div class="title">
-        <p>Software Platform for the Development and Testing of Entrepreneurship Ideas</p>
+        <p>Software Platform for the Development and Testing of Agri-Entrepreneurship Ideas</p>
+    </div>
+ <!-- 嵌入 generate.html 的内容 -->
+    <div class="generate-section">
+        <h1>What is your idea?</h1>
+        <form action="/generate" method="post">
+            <input type="text" name="idea" placeholder="Enter your idea here">
+            <input type="submit" value="Submit">
+        </form>
     </div>
     <div class="options">
-        <a class="button" href="/generate">Generate</a>
+       <!--删除了generate button -->
         <a class="button" href="/submit">Guide</a>
     </div>
 </div>
 </body>
 </html>
+
