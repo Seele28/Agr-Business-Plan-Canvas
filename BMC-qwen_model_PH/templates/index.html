@@ -2,20 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMC Generator</title>
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
 </head>
+<body>
 <nav>
     <a href="/">Home</a>
     <a href="/generate">Generate</a>
     <a href="/submit">Guide</a>
 </nav>
-<body>
 <div class="container-index">
+    <!-- Title Section -->
     <div class="title">
+        <h1>Create a Personalized Business Model Canvas</h1>
+        <h2>Save time, reduce errors, and boost your business with our platform</h2>
+    </div>
+
+    <!-- Subtitle Bar -->
+    <div class="subtitle-bar">
         <p>Software Platform for the Development and Testing of Agri-Entrepreneurship Ideas</p>
     </div>
- <!-- 嵌入 generate.html 的内容 -->
+
+    <!-- Generate Section -->
     <div class="generate-section">
         <h1>What is your idea?</h1>
         <form action="/generate" method="post">
@@ -23,8 +32,11 @@
             <input type="submit" value="Submit">
         </form>
     </div>
+
+    <!-- Button Section -->
     <div class="options">
-       <!--删除了generate button -->
+        <a class="button" href="/generate">Generate Business Model Canvas</a>
+        <a class="button" href="/expert">Generate with Expert Guidance</a>
         <a class="button" href="/submit">Guide</a>
     </div>
 </div>
