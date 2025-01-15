@@ -1,11 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f5f5f5;
+    background-color: #f0f9f0; /* 浅绿色背景 */
 }
 
 nav {
-    background-color: #007BFF;
+    background-color: #8BC34A; /* 浅绿色导航栏 */
     padding: 10px 20px;
     display: flex;
     justify-content: center;
@@ -37,12 +37,12 @@ nav a:hover {
     margin-top: 40px;
     font-size: 28px;
     font-weight: bold;
-    color: #333;
+    color: #2E7D32; /* 深绿色文字 */
 }
 
 .subtitle-bar {
     width: 100%;
-    background-color: #4CAF50; /* Adjusted to green theme */
+    background-color: #AED581; /* 浅绿色主题 */
     color: white;
     padding: 15px 0;
     font-size: 18px;
@@ -65,7 +65,7 @@ nav a:hover {
 .generate-section h1 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #333;
+    color: #2E7D32; /* 深绿色文字 */
 }
 
 .generate-section form {
@@ -83,7 +83,7 @@ nav a:hover {
 }
 
 .generate-section input[type="submit"] {
-    background-color: #007BFF;
+    background-color: #8BC34A; /* 浅绿色按钮 */
     color: white;
     border: none;
     padding: 12px;
@@ -94,7 +94,7 @@ nav a:hover {
 }
 
 .generate-section input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #7CB342; /* 浅绿色按钮悬停效果 */
 }
 
 .options {
@@ -109,7 +109,7 @@ nav a:hover {
     width: auto;
     max-width: 250px;
     padding: 10px 20px;
-    background-color: #4CAF50; /* Green theme */
+    background-color: #AED581; /* 浅绿色按钮 */
     color: white;
     text-decoration: none;
     margin: 10px;
@@ -121,7 +121,7 @@ nav a:hover {
 }
 
 .options .button:hover {
-    background-color: #3e8e41;
+    background-color: #9CCC65; /* 浅绿色按钮悬停效果 */
 }
 
 footer {
@@ -132,5 +132,3 @@ footer {
     font-size: 14px;
 }
 
-    background-color: #0056b3;
-}
