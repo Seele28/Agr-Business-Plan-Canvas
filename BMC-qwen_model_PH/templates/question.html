@@ -5,199 +5,231 @@
     <title>BMC Generator</title>
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
 </head>
+<body>
+<!-- Navigation -->
 <nav>
     <a href="/">Home</a>
     <a href="/generate">Generate</a>
     <a href="/submit">Guide</a>
 </nav>
-<body>
-<!-- a form with six questions -->
+
+<!-- Form Section -->
 <div class="form-container">
-        <form action="/submit" method="post">
-            <div class="form-group">
-                <label for="question1">Who are you?</label>
-                <input type="text" id="question1" name="question1">
-            </div>
-            <div class="form-group">
-                <label for="question2">What does your farm do best?</label>
-                <input type="text" id="question2" name="question2">
-            </div>
-            <div class="form-group">
-                <label for="question3">What do you have to offer customers or your community?</label>
-                <input type="text" id="question3" name="question3">
-            </div>
-            <div class="form-group">
-                <label for="question4">What value does your product or farm bring?</label>
-                <input type="text" id="question4" name="question4">
-            </div>
-            <div class="form-group">
-                <label for="question5">Why will people buy from you instead of someone else?</label>
-                <input type="text" id="question5" name="question5">
-            </div>
-            <div class="form-group">
-                <label for="question6">What problem does your product solve?</label>
-                <input type="text" id="question6" name="question6">
-            </div>
-            <div class="form-group">
-                <label for="question7">Who are the key team members/employees needed to make this work?</label>
-                <input type="text" id="question7" name="question7">
-            </div>
-            <div class="form-group">
-                <label for="question8">What are their roles in this venture?</label>
-                <input type="text" id="question8" name="question8">
-            </div>
-            <div class="form-group">
-                <label for="question9">Who will you partner with outside the farm business?</label>
-                <input type="text" id="question9" name="question9">
-            </div>
-            <div class="form-group">
-                <label for="question10">Who can or will help you along the way?</label>
-                <input type="text" id="question10" name="question10">
-            </div>
-            <div class="form-group">
-                <label for="question11">What can you do versus what will you contract with someone else to do?</label>
-                <input type="text" id="question11" name="question11">
-            </div>
-            <div class="form-group">
-                <label for="question12">What do you need to do to be successful or make money?</label>
-                <input type="text" id="question12" name="question12">
-            </div>
-            <div class="form-group">
-                <label for="question13">How will you know that you are successful?</label>
-                <input type="text" id="question13" name="question13">
-            </div>
-            <div class="form-group">
-                <label for="question14">What are the milestones you will work toward?</label>
-                <input type="text" id="question14" name="question14">
-            </div>
-            <div class="form-group">
-                <label for="question15">What do you need to be successful or make money?</label>
-                <input type="text" id="question15" name="question15">
-            </div>
-            <div class="form-group">
-                <label for="question16">Who will you partner or contract with?</label>
-                <input type="text" id="question16" name="question16">
-            </div>
-            <div class="form-group">
-                <label for="question17">Is there any infrastructure or skills you need?</label>
-                <input type="text" id="question17" name="question17">
-            </div>
-            <div class="form-group">
-                <label for="question18">What do you have in-house and what do you have to outsource?</label>
-                <input type="text" id="question18" name="question18">
-            </div>
-            <div class="form-group">
-                <label for="question19">What will you charge for your services or products?</label>
-                <input type="text" id="question19" name="question19">
-            </div>
-            <div class="form-group">
-                <label for="question20">How much will it cost you to make your product and sell it?</label>
-                <input type="text" id="question20" name="question20">
-            </div>
-            <div class="form-group">
-                <label for="question21">What costs will vary as you increase or decrease production</label>
-                <input type="text" id="question21" name="question21">
-            </div>
-            <div class="form-group">
-                <label for="question22">What expenses will you have?</label>
-                <input type="text" id="question22" name="question22">
-            </div>
-            <div class="form-group">
-                <label for="question23">Will you need to bring in additional employees or managers?</label>
-                <input type="text" id="question23" name="question23">
-            </div>
-            <div class="form-group">
-                <label for="question24">How much and what kind of labor is needed?</label>
-                <input type="text" id="question24" name="question24">
-            </div>
-            <div class="form-group">
-                <label for="question25">How will you pay yourself?</label>
-                <input type="text" id="question25" name="question25">
-            </div>
-            <div class="form-group">
-                <label for="question26">Who will be your customers?</label>
-                <input type="text" id="question26" name="question26">
-            </div>
-            <div class="form-group">
-                <label for="question27">How do you describe your customers?</label>
-                <input type="text" id="question27" name="question27">
-            </div>
-            <div class="form-group">
-                <label for="question28">How big is your customer base?</label>
-                <input type="text" id="question28" name="question28">
-            </div>
-            <div class="form-group">
-                <label for="question29">How does your product compare to a competitor’s?</label>
-                <input type="text" id="question29" name="question29">
-            </div>
-            <div class="form-group">
-                <label for="question30">How will customers find you?</label>
-                <input type="text" id="question30" name="question30">
-            </div>
-            <div class="form-group">
-                <label for="question31">How will customers buy your product?</label>
-                <input type="text" id="question31" name="question31">
-            </div>
-            <div class="form-group">
-                <label for="question32">How do your competitors reach customers?</label>
-                <input type="text" id="question32" name="question32">
-            </div>
-            <div class="form-group">
-                <label for="question33">How do you communicate your value proposition to the public?</label>
-                <input type="text" id="question33" name="question33">
-            </div>
-            <div class="form-group">
-                <label for="question34">What relationship will you have with your customers?</label>
-                <input type="text" id="question34" name="question34">
-            </div>
-            <div class="form-group">
-                <label for="question35">How will you interact with your customers?</label>
-                <input type="text" id="question35" name="question35">
-            </div>
-            <div class="form-group">
-                <label for="question36">How will you maintain relationships with your customers?</label>
-                <input type="text" id="question36" name="question36">
-            </div>
-            <div class="form-group">
-                <label for="question37">Why will they keep coming back?</label>
-                <input type="text" id="question37" name="question37">
-            </div>
-            <div class="form-group">
-                <label for="question38">Who are you competing against?</label>
-                <input type="text" id="question38" name="question38">
-            </div>
-            <div class="form-group">
-                <label for="question39">What is unique about your customer relations?</label>
-                <input type="text" id="question39" name="question39">
-            </div>
-            <div class="form-group">
-                <label for="question40">How will you make money?</label>
-                <input type="text" id="question40" name="question40">
-            </div>
-            <div class="form-group">
-                <label for="question41">How will you set pricing or determine what customers are willing to pay?</label>
-                <input type="text" id="question41" name="question41">
-            </div>
-            <div class="form-group">
-                <label for="question42">How much can you make and sell in a year?</label>
-                <input type="text" id="question42" name="question42">
-            </div>
-            <div class="form-group">
-                <label for="question43">Can this be scaled up or down?</label>
-                <input type="text" id="question43" name="question43">
-            </div>
-            <div class="form-group">
-                <label for="question44">How will you grow?</label>
-                <input type="text" id="question44" name="question44">
-            </div>
-            <div class="form-group">
-                <label for="question45">What else could you get paid for?</label>
-                <input type="text" id="question45" name="question45">
-            </div>
-            <div class="form-group">
-                <button type="submit">Submit</button>
-            </div>
-        </form>
-    </div>
+    <form action="/submit" method="post">
+        
+        <!-- Value Proposition -->
+        <h2 style="text-align: center; margin-top: 20px;">Value Proposition</h2>
+        <div class="form-group">
+            <label for="question1">Who are you?</label>
+            <input type="text" id="question1" name="question1">
+        </div>
+        <div class="form-group">
+            <label for="question2">What does your farm do best?</label>
+            <input type="text" id="question2" name="question2">
+        </div>
+        <div class="form-group">
+            <label for="question3">What do you have to offer customers or your community?</label>
+            <input type="text" id="question3" name="question3">
+        </div>
+        <div class="form-group">
+            <label for="question4">What value does your product or farm bring?</label>
+            <input type="text" id="question4" name="question4">
+        </div>
+        <div class="form-group">
+            <label for="question5">Why will people buy from you instead of someone else?</label>
+            <input type="text" id="question5" name="question5">
+        </div>
+        <div class="form-group">
+            <label for="question6">What problem does your product solve?</label>
+            <input type="text" id="question6" name="question6">
+        </div>
+
+        <!-- Key Partners -->
+        <h2 style="text-align: center; margin-top: 20px;">Key Partners</h2>
+        <div class="form-group">
+            <label for="question7">Who are the key team members/employees needed to make this work?</label>
+            <input type="text" id="question7" name="question7">
+        </div>
+        <div class="form-group">
+            <label for="question8">What are their roles in this venture?</label>
+            <input type="text" id="question8" name="question8">
+        </div>
+        <div class="form-group">
+            <label for="question9">Who will you partner with outside the farm business?</label>
+            <input type="text" id="question9" name="question9">
+        </div>
+        <div class="form-group">
+            <label for="question10">Who can or will help you along the way?</label>
+            <input type="text" id="question10" name="question10">
+        </div>
+        <div class="form-group">
+            <label for="question11">What can you do versus what will you contract with someone else to do?</label>
+            <input type="text" id="question11" name="question11">
+        </div>
+
+        <!-- Key Activities -->
+        <h2 style="text-align: center; margin-top: 20px;">Key Activities</h2>
+        <div class="form-group">
+            <label for="question12">What do you need to do to be successful or make money?</label>
+            <input type="text" id="question12" name="question12">
+        </div>
+        <div class="form-group">
+            <label for="question13">How will you know that you are successful?</label>
+            <input type="text" id="question13" name="question13">
+        </div>
+        <div class="form-group">
+            <label for="question14">What are the milestones you will work toward?</label>
+            <input type="text" id="question14" name="question14">
+        </div>
+
+        <!-- Key Resources -->
+        <h2 style="text-align: center; margin-top: 20px;">Key Resources</h2>
+        <div class="form-group">
+            <label for="question15">What do you need to be successful or make money?</label>
+            <input type="text" id="question15" name="question15">
+        </div>
+        <div class="form-group">
+            <label for="question16">Who will you partner or contract with?</label>
+            <input type="text" id="question16" name="question16">
+        </div>
+        <div class="form-group">
+            <label for="question17">Is there any infrastructure or skills you need?</label>
+            <input type="text" id="question17" name="question17">
+        </div>
+        <div class="form-group">
+            <label for="question18">What do you have in-house and what do you have to outsource?</label>
+            <input type="text" id="question18" name="question18">
+        </div>
+
+        <!-- Cost Structure -->
+        <h2 style="text-align: center; margin-top: 20px;">Cost Structure</h2>
+        <div class="form-group">
+            <label for="question19">What will you charge for your services or products?</label>
+            <input type="text" id="question19" name="question19">
+        </div>
+        <div class="form-group">
+            <label for="question20">How much will it cost you to make your product and sell it?</label>
+            <input type="text" id="question20" name="question20">
+        </div>
+        <div class="form-group">
+            <label for="question21">What costs will vary as you increase or decrease production?</label>
+            <input type="text" id="question21" name="question21">
+        </div>
+        <div class="form-group">
+            <label for="question22">What expenses will you have?</label>
+            <input type="text" id="question22" name="question22">
+        </div>
+        <div class="form-group">
+            <label for="question23">Will you need to bring in additional employees or managers?</label>
+            <input type="text" id="question23" name="question23">
+        </div>
+        <div class="form-group">
+            <label for="question24">How much and what kind of labor is needed?</label>
+            <input type="text" id="question24" name="question24">
+        </div>
+        <div class="form-group">
+            <label for="question25">How will you pay yourself?</label>
+            <input type="text" id="question25" name="question25">
+        </div>
+
+        <!-- Market Segments -->
+        <h2 style="text-align: center; margin-top: 20px;">Market Segments</h2>
+        <div class="form-group">
+            <label for="question26">Who will be your customers?</label>
+            <input type="text" id="question26" name="question26">
+        </div>
+        <div class="form-group">
+            <label for="question27">How do you describe your customers?</label>
+            <input type="text" id="question27" name="question27">
+        </div>
+        <div class="form-group">
+            <label for="question28">How big is your customer base?</label>
+            <input type="text" id="question28" name="question28">
+        </div>
+        <div class="form-group">
+            <label for="question29">How does your product compare to a competitor’s?</label>
+            <input type="text" id="question29" name="question29">
+        </div>
+
+        <!-- Channels -->
+        <h2 style="text-align: center; margin-top: 20px;">Channels</h2>
+        <div class="form-group">
+            <label for="question30">How will customers find you?</label>
+            <input type="text" id="question30" name="question30">
+        </div>
+        <div class="form-group">
+            <label for="question31">How will customers buy your product?</label>
+            <input type="text" id="question31" name="question31">
+        </div>
+        <div class="form-group">
+            <label for="question32">How do your competitors reach customers?</label>
+            <input type="text" id="question32" name="question32">
+        </div>
+        <div class="form-group">
+            <label for="question33">How do you communicate your value proposition to the public?</label>
+            <input type="text" id="question33" name="question33">
+        </div>
+
+        <!-- Customer Relations -->
+        <h2 style="text-align: center; margin-top: 20px;">Customer Relations</h2>
+        <div class="form-group">
+            <label for="question34">What relationship will you have with your customers?</label>
+            <input type="text" id="question34" name="question34">
+        </div>
+        <div class="form-group">
+            <label for="question35">How will you interact with your customers?</label>
+            <input type="text" id="question35" name="question35">
+        </div>
+        <div class="form-group">
+            <label for="question36">How will you maintain relationships with your customers?</label>
+            <input type="text" id="question36" name="question36">
+        </div>
+        <div class="form-group">
+            <label for="question37">Why will they keep coming back?</label>
+            <input type="text" id="question37" name="question37">
+        </div>
+        <div class="form-group">
+            <label for="question38">Who are you competing against?</label>
+            <input type="text" id="question38" name="question38">
+        </div>
+        <div class="form-group">
+            <label for="question39">What is unique about your customer relations?</label>
+            <input type="text" id="question39" name="question39">
+        </div>
+
+        <!-- Revenue Streams -->
+        <h2 style="text-align: center; margin-top: 20px;">Revenue Streams</h2>
+        <div class="form-group">
+            <label for="question40">How will you make money?</label>
+            <input type="text" id="question40" name="question40">
+        </div>
+        <div class="form-group">
+            <label for="question41">How will you set pricing or determine what customers are willing to pay?</label>
+            <input type="text" id="question41" name="question41">
+        </div>
+        <div class="form-group">
+            <label for="question42">How much can you make and sell in a year?</label>
+            <input type="text" id="question42" name="question42">
+        </div>
+        <div class="form-group">
+            <label for="question43">Can this be scaled up or down?</label>
+            <input type="text" id="question43" name="question43">
+        </div>
+        <div class="form-group">
+            <label for="question44">How will you grow?</label>
+            <input type="text" id="question44" name="question44">
+        </div>
+        <div class="form-group">
+            <label for="question45">What else could you get paid for?</label>
+            <input type="text" id="question45" name="question45">
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
 </body>
 </html>
+
